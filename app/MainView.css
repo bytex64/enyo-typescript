@@ -1,0 +1,12 @@
+.item {
+	display: flex;
+	flex-direction: row;
+}
+
+.itemName {
+	width: 4em;
+}
+
+.itemDate {
+	font-size: 80%;
+}

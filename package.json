@@ -1,0 +1,17 @@
+{
+  "name": "enyo-typescript",
+  "version": "1.0.0",
+  "description": "Use ES2015 with typescript",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "style-loader": "^0.13.0",
+    "ts-loader": "^0.8.0",
+    "typescript": "^1.8.0",
+    "webpack": "^1.12.12",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "build-enyo": "cd enyo && enyo/tools/minify.sh package.js -no-alias -output build/enyo"
+  }
+}
